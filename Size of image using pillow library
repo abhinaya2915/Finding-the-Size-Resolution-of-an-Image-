@@ -1,0 +1,9 @@
+from PIL import Image   # from pillow (PIL) import Image
+
+# open your image by specifing path.
+img = Image.open("demo.jpg")
+
+# get width and height of an Image using size attribute
+width, height = img.size
+
+print(f"Size (Resolution) of your Image is {width} X {height}")
